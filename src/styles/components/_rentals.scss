@@ -1,0 +1,32 @@
+.rentals {
+  margin-top: 40px;
+  padding-top: 40px;
+  background: #F7F7F7;
+  border-radius: 25px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  // text-align: center;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+
+
+
+  ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+
+  }
+
+}
+
+
+@media screen and (max-width: 840px) {.rentals{border-radius: 10px;}}
+
+
+@media screen and (max-width: 500px) {.rentals{margin: 12px 0 12px 0;padding: 12px 0 12px 0;}}
